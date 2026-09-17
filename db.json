@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Noise-Canceling Headphones",
+      "category": "Electronics",
+      "price": 199.99,
+      "inStock": true,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "description": "High-fidelity audio with active noise cancellation, 30-hour battery life, and comfortable over-ear design."
+    },
+    {
+      "id": "2",
+      "name": "Ergonomic Office Chair",
+      "category": "Furniture",
+      "price": 149.50,
+      "inStock": true,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1580481072645-022f9a6d1270?w=500",
+      "description": "Adjustable lumbar support and breathable mesh back designed for long hours of comfortable working."
+    },
+    {
+      "id": "3",
+      "name": "Stainless Steel Water Bottle",
+      "category": "Fitness",
+      "price": 24.99,
+      "inStock": false,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500",
+      "description": "Double-wall insulated bottle that keeps your drinks cold for 24 hours or hot for up to 12 hours."
+    },
+    {
+      "id": "4",
+      "name": "Mechanical Gaming Keyboard",
+      "category": "Electronics",
+      "price": 89.99,
+      "inStock": true,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500",
+      "description": "Customizable RGB backlighting with tactile mechanical switches built for fast response times."
+    },
+    {
+      "id": "5",
+      "name": "Organic Cotton Hoodie",
+      "category": "Apparel",
+      "price": 45.00,
+      "inStock": true,
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=500",
+      "description": "Ultra-soft and durable hoodie made from 100% certified organic cotton for everyday casual comfort."
+    },
+    {
+      "id": "6",
+      "name": "Smart Fitness Watch",
+      "category": "Electronics",
+      "price": 129.99,
+      "inStock": true,
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+      "description": "Tracks heart rate, sleep quality, and workouts with built-in GPS and a vibrant AMOLED touch screen."
+    }
+  ]
+}
