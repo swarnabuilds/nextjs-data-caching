@@ -1,3 +1,5 @@
+import Link from "next/link";
+
  
 
 const ProductsCard = ({ product }) => {
@@ -10,7 +12,8 @@ const ProductsCard = ({ product }) => {
     <p>{category}</p>
     <p>{description}</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+
+      <Link href={`/products/${id}`}><button className="btn btn-primary">Buy Now</button></Link>
     </div>
   </div>
 </div>
