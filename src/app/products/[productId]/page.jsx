@@ -1,4 +1,14 @@
-import React from 'react';
+
+export const generateStaticParams = async() => {
+  const res = await fetch('http://localhost:5000/products');
+  const products = await res.json();
+
+  return products.map((product) => ({
+    productId: product.id.toString(), // URL parametere list 
+  }));
+}
+
+
 
 const ProductDetailsPage = async({ params }) => {
     const { productId } =await params;
