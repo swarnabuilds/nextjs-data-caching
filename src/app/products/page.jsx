@@ -2,7 +2,7 @@ import ProductsCard from "../components/ProductsCard";
 
  
 const getProducts = async() => {
-    const res = await fetch('http://localhost:5000/products')
+    const res = await fetch('http://localhost:5000/products', {cache: 'no-store'})// force-cache deuya jay bt cannot be change data 
     return res.json()
 }
 const ProductsPage = async() => {
